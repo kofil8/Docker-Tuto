@@ -12,4 +12,4 @@ ENV PORT 3000
 # Expose the port the app runs on
 EXPOSE ${PORT}
 # Start the application
-CMD ["npm", "run", "dev"]
+CMD ["node", "index.js"]
