@@ -1,0 +1,19 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Docker touto",
+  "license": "MIT",
+  "author": "Mohammed Kofil",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
